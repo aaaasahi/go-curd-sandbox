@@ -4,14 +4,14 @@ import "time"
 
 var (
 	Comment1 = Comment{
-		CommentID: 1,
+		ID: 1,
 		ArticleID: 1,
 		Message:   "test comment1",
 		CreatedAt: time.Now(),
 	}
 
 	Comment2 = Comment{
-		CommentID: 2,
+		ID: 2,
 		ArticleID: 1,
 		Message:   "second comment",
 		CreatedAt: time.Now(),
